@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment-Train booking</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+      <video autoplay muted loop id="myVideo">
+  <source src="856360-hd_1920_1080_30fps.mp4" type="video/mp4">
+</video>
+
+        <header>
+            <nav>
+                <a href="login.html">Login</a>
+                <a href="details.html">Details</a>
+                <a href="seats.html">Seats</a>
+                <a href="payment.html">Payment</a>
+                <a href="thank you.html">thanks</a>
+            </nav>
+        </header>
+
+
+        <main>
+
+            
+        <form action="thank you.html" method="get">
+        <div class="login-box">
+         <h2>Payment</h2>
+         <div class="pay">
+            <p><strong>Route:</strong> City A to City b </p>
+            <p><strong>Date:</strong>NNNN-NN-NN</p>
+            <p><strong>Seats:</strong>NA1 NA2 NA3...</p>
+            <p><strong>Fare:seat*</strong>₹*480</p>
+
+            
+            <div class="rad">  <label for="payment">UPI<input type="radio" name="payment" checked> </label><br>
+<label for="payment">Credit/Debit Card<input type="radio" name="payment"></label><br>
+<label for="payment">Gringotts Wizarding Bank Card<input type="radio" name="payment"></label>
+
+</div>
+</div>
+   <button id="pbutton" onclick="document.getElementById('thanks').style.display='block'">Pay</button>
+            
+         </div></form>
+</body>
+</html>
